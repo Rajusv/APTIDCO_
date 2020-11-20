@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Form from './Components/Form';
 import Sidebar from './Components/Sidebar';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    
-    <Sidebar />
+    <App />
+    {/* <Form /> */}
+    {/* <Sidebar /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
